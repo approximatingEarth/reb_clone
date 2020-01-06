@@ -1,0 +1,87 @@
+.mobile-view {
+  .rebus-header .header-wrapper {
+    margin-bottom: -550px;
+    @media screen and (max-width: 340px) {
+      margin-bottom: -600px;
+    }
+    .header-image {
+      position: static;
+      @media screen and (min-width: 440px) {
+        background-position: 0 -50px;
+      }
+      @media screen and (min-width: 534px) {
+        background-position: 0 -100px;
+      }
+      @media screen and (min-width: 623px) {
+        background-position: 0 -200px;
+      }
+    }
+    .content {
+      flex-direction: column;
+      top: -600px;
+      .info-column, .cta-column {
+	margin-bottom: 20px;
+	padding: 0 25px;
+	top: 0;
+        width: calc(100vw - 50px);
+      }
+      @media screen and (min-width: 320px) {
+        .cta-column {
+	  top: -35px;
+	}
+      }
+    }
+  }
+  // Category Header
+  body.category-header[class*="category-"] {
+    background-size: auto, 400px;
+    background-position: -300px -225px;
+  }
+  div[class^="category-title-header"] {
+    @media screen and (max-width: 768px) {
+        margin-bottom: 125px;
+    }
+    @media screen and (min-width: 768px) {
+       margin-bottom: 100px;
+    }
+      
+    .category-title-contents {
+      left: 0;
+      padding: 40px 25px 0 10px;
+      max-width: calc(100vw - 50px);
+    }
+  }
+// Category Boxes
+
+	#list-area, #header-list-area{
+	    .category-boxes {
+		.category-box {
+		    border-radius: 5px;
+		    -webkit-box-shadow: 0px 0px 29px 1px rgba(0,0,0,0.10);
+		    -moz-box-shadow: 0px 0px 29px 1px rgba(0,0,0,0.10);
+		    box-shadow: 0px 0px 29px 1px rgba(0,0,0,0.10);
+		    border-left-width: 0px;
+		    border-top-width: 10px;
+		    display: block;
+		    height: 200px;
+		    padding: 35px 20px;
+		    width: calc(100vw);
+		    h3 {
+			font-family: 'Nunito Sans', sans-serif;
+			font-size: 12pt;
+			letter-spacing: 1px;
+			text-transform: uppercase;
+			a { color: #000000;}
+		    }
+		    p { text-align: center; }
+		    .category-box-inner { 
+			border: none;
+			padding: 0; 
+		    }
+		    .description {
+			color: #000000;
+		    }
+		}
+	    }
+	}
+}
