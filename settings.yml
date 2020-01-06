@@ -1,0 +1,68 @@
+header_menu_list:
+    default: "Link1|URL,Link2|URL2"
+    description: "Link|URL pairs separated by commas for header menu" 
+header_title_text:
+    default: "Welcome to the Rebus Forum!"
+    description: "Front page header title text"
+header_subtitle_text:
+    default: "The Rebus Community is made up of faculty, students, and staff from schools, colleges, and universities around the world, along with regular people who believe that educational materials for every subject should be a free and open public resource."
+    description: "Front page header subtitle text"
+header_cta_column_title:
+    default: "Join the community by"
+    description: "Front page header call-to-action column title"
+header_primary_cta_button_text:
+    default: "Introducing Yourself"
+    description: "Front page header primary call to action button text"
+header_primary_cta_button_link:
+    default: "/"
+    description: "Front page header primary call to action button link URL"
+header_secondary_cta_button_text:
+    default: "Exploring Textbooks"
+    description: "Front page header secondary call to action button text"
+header_secondary_cta_button_link:
+    default: "/"
+    description: "Front page header secondary call to action button link URL"
+show_description: 
+  default: true
+  description: 'Show description from "About This Category" post'
+
+show_mobile: 
+  default: true
+  description: 'Show banners on mobile'
+
+show_subcategory: 
+  default: true
+  description: 'Show banners for subcategories'
+
+hide_if_no_description: 
+  default: true
+  description: 'Hide banners if category description is not set'
+
+exceptions:
+  default: ""
+  type: list
+  description: "Banner will not show for these categories"
+  
+footer_menu_list:
+    default: "Link1|URL,Link2|URL2"
+    description: "Link|URL pairs separated by commas for footer menu" 
+  
+facebook_icon:
+  default: "fab-facebook"
+  description: "FontAwesome Icon for Facebook"
+
+youtube_icon:
+  default: "fab-youtube"
+  description: "FontAwesome Icon for YouTube"
+  
+twitter_icon:
+  default: "fab-twitter"
+  description: "FontAwesome Icon for Twitter"
+  
+creative_commons_icon:
+  default: "fab-creative-commons"
+  description: "FontAwesome Icon for Creative Commons"
+  
+creative_commons_by_icon:
+  default: "fab-creative-commons-by"
+  description: "FontAwesome Icon for Creative Commons By"
